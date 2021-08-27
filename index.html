@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>移动的盒子</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- <script type="text/javascript" crossorigin="anonymous" src="https://yun.duiba.com.cn/h5/vendor/zepto.min.js"></script> -->
+</head>
+
+<body>
+    <div class="camera">
+        <!-- 地面 -->
+        <div class="ground">
+            <div class="box">
+                <div class="box-con">
+                    <div class="wall">z</div>
+                    <div class="wall">z</div>
+                    <div class="wall">y</div>
+                    <div class="wall">y</div>
+                    <div class="wall">x</div>
+                    <div class="wall">x</div>
+                    <div class="linex"></div>
+                    <div class="liney"></div>
+                    <div class="linez"></div>
+                </div>
+                <!-- 棋盘 -->
+                <div class="pan"></div>
+            </div>
+        </div>
+        <!-- 障碍物 -->
+        <div class="block">
+            <div class="wall"></div>
+            <div class="wall"></div>
+            <div class="wall"></div>
+            <div class="wall"></div>
+            <div class="wall"></div>
+            <div class="wall"></div>
+        </div>
+        <div class="step">0步</div>
+        <div class="per-step">在0步内走到终点</div>
+        <div class="tip">提示</div>
+    </div>
+</body>
+<script src="./index.js"></script>
+<script src="./矩阵.js"></script>
+
+</html>
